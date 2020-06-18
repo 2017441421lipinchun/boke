@@ -1,0 +1,48 @@
+---
+title: 基于Gitbook制作电子书
+date: 2020-06-18
+tags:
+ - Gitbook
+categories:
+ - technical
+---
+
+
+
+欢迎继续我们的学习。
+
+1、去node.js官网下载安装包，根据自己电脑下载对应的版本，我这里下载的是64位安装程序（下载地址：http://nodejs.cn/download/）
+
+2、一路默认安装，node.js和npm这时都被安装了。
+
+3、安装完成可以通过cmd命令看版本号 node -v npm -v。
+
+4、执行命令npm install -g gitbook-cli，默认下载的国外镜像，如果网速不好，可能会略慢，耐心等待，下载好后出现版本号，安装成功。
+
+5.在https://legacy.gitbook.com/editor中下载editor gitbook 的客户端。
+
+6.下载完成后进入，无需登录，直接跳过。
+
+![å¨è¿éæå¥å¾çæè¿°](https://img-blog.csdnimg.cn/20190112152506624.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NDI2OTM0,size_16,color_FFFFFF,t_70)
+
+7.添加新书名称，默认用英文，中文不行（注意，该界面我们可以更改下默认文件保存路径，点击菜单Gitbook Editor菜单下的Change Library Path，创建一个自己的文件存储路径）
+
+8.新建好后打开首页，左侧菜单可以添加目录或者子目录，通过右键添加即可。
+
+![å¨è¿éæå¥å¾çæè¿°](https://img-blog.csdnimg.cn/20190112152746651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NDI2OTM0,size_16,color_FFFFFF,t_70)
+
+9.右下角一个不起眼的地方有问号，这里面有Markdown编辑开启预览模式，也有setting修改配置，开启Markdown后出现分屏，可以在编辑时候实时预览。
+
+![å¨è¿éæå¥å¾çæè¿°](https://img-blog.csdnimg.cn/20190112152927419.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NDI2OTM0,size_16,color_FFFFFF,t_70)
+
+10.接下来编辑标题，正文，图片，链接，代码，保存等等功能，依照箭头所示的各个工具即可，也有表格，分隔线等更功能不在一一列举，编辑完后点击保存。
+
+11.最后，编辑完进行网页展示，需要用到命令gitbook serve(注意是serve不是server)并生成http://localhost:4000本地访问地址，这里我的电子书名字叫做stock，则命令行一定要切换到stock目录下面.![å¨è¿éæå¥å¾çæè¿°](https://img-blog.csdnimg.cn/20190112154053269.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NDI2OTM0,size_16,color_FFFFFF,t_70)
+
+![å¨è¿éæå¥å¾çæè¿°](https://img-blog.csdnimg.cn/20190112154118925.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NDI2OTM0,size_16,color_FFFFFF,t_70)
+
+12.网页预览，左侧导航，右侧内容.
+
+![å¨è¿éæå¥å¾çæè¿°](https://img-blog.csdnimg.cn/20190112154258187.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NDI2OTM0,size_16,color_FFFFFF,t_70)
+
+至此实验结束。
